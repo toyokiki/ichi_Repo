@@ -7,7 +7,7 @@
 			<field name="inherit_id" ref="sale.view_order_form"/>
 			<field name="arch" type="xml">
 
-				<xpath expr="//form[@string='Sales Order']" position="replace">
+				<xpath expr="//tree" position="replace">
 						
 					<field name="date_order" invisible="0"/>
 				</xpath>
