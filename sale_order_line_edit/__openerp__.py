@@ -2,8 +2,8 @@
 
 
 {
-	"name": "Sale Order Line Menu",
-	"summary": "add menu for order line",
+	"name": "Sale Order Line Edit",
+	"summary": "Edit Sale Order Form",
 	"version": "9.0.0.1.1",
 	"category": "Sales",
 	"website": "http://www.toyo-kiki.co.jp",
