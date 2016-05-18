@@ -11,6 +11,9 @@
 						
 					<field name="tax_id" invisible="1"/>
 				</xpath>
+				<xpath expr="//field[@name='order_line']/tree/field[@name='discount']" position="replace">
+					<field name="discount" invisible="1"/>
+				</xpath>
 			</field>
 		</record>
 
