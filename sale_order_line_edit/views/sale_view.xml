@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<record id="view_order_line_tree_unit" model="ir.ui.view">
+			<field name="name">sale.view.order.form.edit</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="arch" type="xml">
+
+				<xpath expr="//field[@name='date_order']" position="replace">
+						
+					<field name="date_order" invisible="0"/>
+				</xpath>
+				<xpath expr="//field[@name='payment_term_id']" position="replace">
+
+					<field name="payment_term_id" invisible="1"/>
+				</xpath>
+				<xpath expr="//field[@name='validity_date']" position="replace">
+					<field name="validity_date" invisible="1"/>
+				</xpath>
+			</field>
+		</record>
+<!--
+		<record id="view_sales_order_line_filter_partner" model="ir.ui.view">
+                        <field name="name">sale.order.line.select.partner</field>
+                        <field name="model">sale.order.line</field>
+                        <field name="inherit_id" ref="sale.view_order_filter"/>
+                        <field name="arch" type="xml">
+                                <xpath expr="//filter[@string='Test My Sales Order Lines']" position="after">
+ 					<filter string="Test Not Draft" name="not_draft" domain="[('state','&lt;&gt;','draft')]"/>                                   
+                                </xpath>
+				<xpath expr="//group[@string='Group By']/filter[@string='Product']" position="after">
+					<filter string="test Partner" domain="[]" context="{'group_by':'order_partner_id'}" />
+				</xpath>
+                        </field>
+                </record>
+-->
+	</data>
+</openerp> 
