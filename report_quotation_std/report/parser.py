@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #    OpenERP, Open Source Management Solution
-#    Copyright (c) 2015 Rooms For (Hong Kong) Limited T/A OSCG
+#    Copyright (c) 
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
