@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_quotation_tree_plan" model="ir.ui.view">
+            <field name="name">sale.view.list.plan</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_quotation_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='date_order']" position="before">
+                    <field name="plan_id"/>
+                </xpath>
+                <xpath expr="//field[@name='date_order']" position="after">
+                    <field name="complete_date"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</openerp>
