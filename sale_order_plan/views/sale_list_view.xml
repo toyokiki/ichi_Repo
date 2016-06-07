@@ -12,6 +12,9 @@
                 </xpath>
                 <xpath expr="//field[@name='date_order']" position="after">
                     <field name="complete_date"/>
+		</xpath>
+                <xpath expr="//field[@name='user_id']" position="after">
+                    <field name="assistant_id"/>
                 </xpath>
             </field>
         </record>

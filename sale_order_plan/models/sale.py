@@ -21,6 +21,9 @@ from openerp import models, fields
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    plan_id = fields.Many2one(string="Plan Name", help="Plan Name for Quotation", relation='sale.order')
+    plan_id = fields.Char(string='Plan Name',copy=True, help="Plan Name for Quotation")
     complete_date = fields.Date('Complete Date')
+    assistant_id = fields.Many2one('res.users', string='Assistant')
+
+
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
