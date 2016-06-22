@@ -38,7 +38,7 @@
       <field name='multi' eval='False'/>
       <field name='name'>TEC Quotation</field>
       <field name='report_rml'>aton_report/report/quotation_tec.odt</field>
-      <field name='report_name'>aton_quotation</field>
+      <field name='report_name'>aton_tec_quotation</field>
       <field name='model'>sale.order</field>
       <field name='type'>ir.actions.report.xml</field>
       <field name='attachment_use' eval='False'/>
