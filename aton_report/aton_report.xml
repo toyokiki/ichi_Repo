@@ -53,7 +53,7 @@
         <field eval="'client_print_multi'" name="key2"/>
         <field eval="['sale.order']" name="models"/>
         <field name="name">TEC Quotation</field>
-        <field eval="'ir.actions.report.xml,'+str(aton_profirma_invoice)" name="value"/>
+        <field eval="'ir.actions.report.xml,'+str(aton_tec_invoice)" name="value"/>
         <field eval="True" name="isobject"/>
         <field eval="True" name="replace"/>
     </ir_set>
