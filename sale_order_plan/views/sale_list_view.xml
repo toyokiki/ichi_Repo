@@ -2,10 +2,10 @@
 <openerp>
     <data>
 
-        <record id="view_invoice_tree_addset" model="ir.ui.view">
-            <field name="name">sale.invoice.view.list.plan</field>
+        <record id="view_quotation_tree_plan" model="ir.ui.view">
+            <field name="name">sale.quotation.view.list.plan</field>
             <field name="model">sale.order</field>
-            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="inherit_id" ref="sale.view_quotation_tree"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='name']" position="after">
                     <field name="project_id"/>
