@@ -30,7 +30,7 @@
         "sale",
     ],
     "data": [
-        "views/sale_list_view.xml",
+        
         "views/sale_form_view.xml",
     ],
 }
