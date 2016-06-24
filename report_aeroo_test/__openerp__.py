@@ -22,7 +22,7 @@
     'author': 'TOYOKIKI',
     'website': 'https://www.toyo-kiki.co.jp/',
     'licence': 'AGPL-3',
-    'depends': ['report_aeroo','sale_order','purchase'],
+    'depends': ['report_aeroo','sale','purchase'],
     'summary':"""Print Sale Order using Aeroo Report""",
     'description': """
 Print Sale Order using Aeroo Report
