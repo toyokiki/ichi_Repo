@@ -17,8 +17,8 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 {
-    "name": "Plan_Sale_Order ",
-    "summary": "add Plan and CompleteDay to Sale Order",
+    "name": "Sale_Order_Addset_Toki ",
+    "summary": "add Plan and CompleteDay and Assistant to Sale Order",
     "version": "9.0.1.0.0",
     "category": "Sales",
     "website": "https://www.toyo-kiki.co.jp/",
@@ -32,6 +32,7 @@
     "data": [
         "views/sale_list_view.xml",
         "views/sale_form_view.xml",
+        "views/invoice_list.xml",
     ],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
