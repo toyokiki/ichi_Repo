@@ -32,6 +32,7 @@
     "data": [
         
         "views/sale_form_view.xml",
+        "views/sale_list_view.xml",
     ],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
