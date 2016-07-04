@@ -22,7 +22,7 @@ class SaleOrder(models.Model):
     _inherit = "sale.order"
 
     plan_id = fields.Char(string='Plan Name',copy=True, help="Plan Name for Quotation")
-    complete_date = fields.Date('Complete Date')
+    complete_date = fields.Date('Complete Date' ,store=True)
     assistant_id = fields.Many2one('res.users', string='Assistant')
 
 
